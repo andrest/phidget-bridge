@@ -20,7 +20,7 @@
               ]
             },
             'include_dirs': [ '/Library/Frameworks/Phidget21.framework/Headers' ],
-            'libraries': [ '/Library/Frameworks/Phidget21.framework' ]
+            'libraries': [ '-L/Library/Frameworks/Phidget21.framework' ]
           }
         ],
         ["OS=='win'",
