@@ -18,7 +18,9 @@
               "libraries": [
                 "Phidget21.framework"
               ]
-            }
+            },
+            'include_dirs': [ '/Library/Frameworks/Phidget21.framework/Headers' ],
+            'libraries': [ '/Library/Frameworks/Phidget21.framework' ]
           }
         ],
         ["OS=='win'",
